@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: caddy_file_server
+  description: Adds Caddy config for a static file server.
   author: Steffen Uhlig
   license: MIT
   min_ansible_version: 2.6
