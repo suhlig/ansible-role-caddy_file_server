@@ -1,4 +1,5 @@
 {{ caddy_domain }} {
   root * {{ caddy_content_directory }}
   file_server
+  {{ caddy_additional_config | default('') }}
 }
